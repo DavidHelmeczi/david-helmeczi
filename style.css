@@ -1,0 +1,47 @@
+/*
+Theme Name: Digital Nation
+Author: David Helmeczi
+Author URI: https://digitalstation.workplace.com/profile.php?id=100042326864643
+Description: Cea mai tare tema WordPress
+Version: 6.9
+Tags: theme
+*/
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    height:auto;
+}
+body{
+    background:lightgrey;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+#detalii{
+    float:top;
+    float:right;
+    
+}
+.navbar{
+    position:sticky;
+    top:-1px;
+    z-index: 1;
+}
+.taxterm {
+    width: 33%;
+    height: 25vh;
+    display: inline-block;
+    color: #37c383;
+    text-align: center;
+    vertical-align: center;
+    line-height: 25vh;
+    text-decoration:none;
+}
+#detalii{
+    
+    display:inline-block;
+    
+}
+
