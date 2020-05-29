@@ -1,4 +1,4 @@
-test 2
+test 
 <?php
 get_header();
 the_post();
