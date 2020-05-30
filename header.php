@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
 <a class="navbar-brand" > <!-- logo -->
-    <img src="https://bevouliin.com/wp-content/uploads/2014/02/movie-camera-video-cut-board-logo-template-preview-bevouliin.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="<?php echo get_stylesheet_directory_uri(), "/template-parts/logo.png" ?>" width="30" height="30" class="d-inline-block align-top" alt="">
     Movies
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

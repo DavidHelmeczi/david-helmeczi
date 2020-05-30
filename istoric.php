@@ -7,7 +7,7 @@ window.onload =  istoricAjaxPosts();
 </script>
 
 
-    <h1 class="tax_title font-weight-normal"><?php the_title(); ?><button type="button" class="ml-4 btn btn-danger" id="clear_history">Sterge istoric</button></h1>
+    <h1 class="text-danger tax_title font-weight-light"><?php the_title(); ?><button type="button" class="ml-4 btn btn-danger" id="clear_history">Sterge istoric</button></h1>
     <script>
     $( "#clear_history" ).click(function() {
         setCookie("istoricCookie", '', -1);
