@@ -60,8 +60,12 @@ add_action('wp_ajax_display_istoric_movies', 'display_istoric_movies_callback');
 add_action('wp_ajax_nopriv_trimitere_formular', 'trimitere_formular_callback');
 add_action('wp_ajax_trimitere_formular', 'trimitere_formular_callback');
 add_action('widgets_init', 'register_widget_areas');
+add_action( 'after_setup_theme', 'register_navwalker' );
 
-require_once 'inc/scripts/navwalker.php';
+function register_navwalker(){
+	require_once get_template_directory() . '/inc/scripts/navwalker.php';
+}
+
 
 function __search_by_title_only( $search, $wp_query )
 {
