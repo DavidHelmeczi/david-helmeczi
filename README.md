@@ -1,3 +1,3 @@
-# Wordpress template, import into wordpress using a plugin of your choice
+# https://wp-filme.000webhostapp.com/
 OR
-https://wp-filme.000webhostapp.com/
+Import into wordpress using a plugin of your choice
